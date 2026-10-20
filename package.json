@@ -1,0 +1,30 @@
+{
+  "name": "tgbackup-cli",
+  "version": "1.0.0",
+  "description": "Open your TG Backup file offline: list contacts, search bios, see chats and folders, export CSV. No network, no account.",
+  "type": "module",
+  "bin": {
+    "tgbackup": "bin/tgbackup.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "age-encryption": "0.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelchBD/tgbackup-cli.git"
+  },
+  "homepage": "https://www.tgbackup.xyz/export-format"
+}
